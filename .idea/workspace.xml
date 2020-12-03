@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4dbdb9f-ea1e-4a49-bfe8-255edc9ed24a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef2.1/templates/column.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef2.1/dog.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/dog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oef2.1/dog2.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/dog2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef2.1/dog_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/dog_detail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oef2.1/lib/get_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/lib/get_html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef2.1/templates/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/templates/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef2.1/templates/jumbotron.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/templates/jumbotron.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +14,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +34,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/oef1.2" />
@@ -61,7 +64,7 @@
       <workItem from="1606932825589" duration="87000" />
       <workItem from="1606933130686" duration="8958000" />
       <workItem from="1606987587419" duration="374000" />
-      <workItem from="1606989769580" duration="4952000" />
+      <workItem from="1606989769580" duration="7524000" />
     </task>
     <task id="LOCAL-00001" summary="Een poging...">
       <created>1606945767041</created>

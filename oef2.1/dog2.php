@@ -14,7 +14,15 @@ printJumbo("A dog named Zumi", "Cute, funny, but weird"); ?>
 <div class="container">
     <div class="row">
         <?php
-        buildHTML("SELECT * from images");
+
+        //Get data
+        $rows = getData("SELECT * from images");
+
+        //Get template
+        $html = file_get_contents("templates/column.html");
+
+        //Merge function
+        buildHTML($html, $rows);
         ?>
     </div>
 </div>
