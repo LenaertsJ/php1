@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4dbdb9f-ea1e-4a49-bfe8-255edc9ed24a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/oef1.2/connection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/dog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/dog2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.1/dog_detail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.1/img/zumi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.1/img/zumicute.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.1/img/zumiweird.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen1/img/zumi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.1/img/zumi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen1/img/zumicute.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.1/img/zumicute.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen1/img/zumiweird.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.1/img/zumiweird.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.1/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen1/index2.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.1/index2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen1/student.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.1/student.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen2.1/dog.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/dog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen2.1/dog2.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/dog2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen2.1/dog_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.2/dog_detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen2.1/img/zumi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.2/img/zumi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen2.1/img/zumicute.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.2/img/zumicute.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen2.1/img/zumiweird.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.2/img/zumiweird.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen2.1/lib/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/lib/connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen2.1/lib/get_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/lib/get_data.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen2.1/lib/get_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/lib/get_html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen2.1/templates/column.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/templates/column.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen2.1/templates/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/templates/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen2.1/templates/jumbotron.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/templates/jumbotron.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef2.1/lib/get_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/lib/get_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef2.1/lib/get_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/lib/get_html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef2.1/templates/column.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +55,8 @@
       <workItem from="1606929188470" duration="1093000" />
       <workItem from="1606932825589" duration="87000" />
       <workItem from="1606933130686" duration="8958000" />
+      <workItem from="1606987587419" duration="374000" />
+      <workItem from="1606989769580" duration="1320000" />
     </task>
     <task id="LOCAL-00001" summary="Een poging...">
       <created>1606945767041</created>
