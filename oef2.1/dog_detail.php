@@ -8,8 +8,8 @@ require_once "lib/get_data.php";
 require_once 'lib/get_html.php';
 
 //Print header and jumbotron
-printHTML("templates/head.html");
-printHTML("templates/jumbotron.html");
+printHead("A closer look");
+printJumbo("Zumi", "a closer look");
 ?>
 
 <div class="container">
@@ -24,10 +24,10 @@ printHTML("templates/jumbotron.html");
         foreach ( $images as $image )
         {
             print '<div class="col-sm-12">';
-            print '<h3>' . $image[2] . '</h3>';
-            print '<p>filename: ' .  $image[1] . '</p>';
-            print '<p>' .  $image[3] . ' x ' . $image[4] . ' pixels</p>';
-            print '<img class="img-fluid" style="width: 75%;" src=" img/' . $image[1] . '">';
+            print '<h3>' . $image["img_title"] . '</h3>';
+            print '<p>filename: ' .  $image["img_filename"] . '</p>';
+            print '<p>' .  $image["img_width"] . ' x ' . $image["img_height"] . ' pixels</p>';
+            print '<img class="img-fluid" style="width: 75%;" src=" img/' . $image["img_filename"] . '">';
 
             //Link terug naar hoofdpagina
             print '<br>';

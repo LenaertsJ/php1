@@ -1,10 +1,22 @@
 <?php
+error_reporting( E_ALL );
+ini_set( 'display_errors', 1 );
 
 // FUNCTION TO GET HTML COMPONENTS
 
-function printHTML($template){
+function printHead($title){
+    $template = "templates/head.html";
     $html = file_get_contents($template);
+    $html = str_replace("{{TITLE}}", $title, $html);
     print $html;
+}
+
+function printJumbo($title, $subtitle) {
+    $template_jumbo = "templates/jumbotron.html";
+    $html_jumbo = file_get_contents($template_jumbo);
+    $html_jumbo = str_replace("{{TITLE}}", $title, $html_jumbo);
+    $html_jumbo = str_replace("{{SUBTITLE}}", $subtitle, $html_jumbo);
+    print $html_jumbo;
 }
 
 // FUNTION TO BUILD HTML COMPONENT
