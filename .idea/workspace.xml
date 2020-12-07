@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4dbdb9f-ea1e-4a49-bfe8-255edc9ed24a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/oef3.1/templates/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef3.1/dog_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef3.1/dog_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef3.1/save.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef3.1/save.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef3.1/templates/column.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef3.1/templates/column.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,7 @@
       <workItem from="1606987587419" duration="374000" />
       <workItem from="1606989769580" duration="8672000" />
       <workItem from="1607018137073" duration="400000" />
-      <workItem from="1607362486733" duration="4015000" />
+      <workItem from="1607362486733" duration="4379000" />
     </task>
     <task id="LOCAL-00001" summary="Een poging...">
       <created>1606945767041</created>
