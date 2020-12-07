@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4dbdb9f-ea1e-4a49-bfe8-255edc9ed24a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/oef3.1/dog2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.1/dog_detail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.1/dog_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.1/img/zumi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.1/img/zumicute.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.1/img/zumiweird.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.1/lib/connection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.1/lib/get_data.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.1/lib/get_html.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.1/templates/column.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.1/templates/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.1/templates/jumbotron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef3.1/templates/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef3.1/dog_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef3.1/dog_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef3.1/save.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef3.1/save.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef3.1/templates/column.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef3.1/templates/column.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +67,8 @@
       <workItem from="1606933130686" duration="8958000" />
       <workItem from="1606987587419" duration="374000" />
       <workItem from="1606989769580" duration="8672000" />
+      <workItem from="1607018137073" duration="400000" />
+      <workItem from="1607362486733" duration="4015000" />
     </task>
     <task id="LOCAL-00001" summary="Een poging...">
       <created>1606945767041</created>
@@ -131,22 +125,26 @@
     </state>
     <state x="227" y="23" key="CommitChangelistDialog2/0.23.1440.824/1440.23.1920.1057@0.23.1440.824" timestamp="1606946149546" />
     <state x="227" y="23" key="CommitChangelistDialog2/0.23.1440.877/1440.23.1920.1004@0.23.1440.877" timestamp="1606945575556" />
-    <state width="930" height="199" key="GridCell.Tab.0.bottom" timestamp="1606926871317">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state width="572" height="198" key="GridCell.Tab.0.bottom" timestamp="1607366334102">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="930" height="199" key="GridCell.Tab.0.bottom/0.23.1440.824/1440.23.1920.1057@0.23.1440.824" timestamp="1606926871317" />
-    <state width="930" height="199" key="GridCell.Tab.0.center" timestamp="1606926871317">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state width="572" height="198" key="GridCell.Tab.0.bottom/0.23.1440.824/1440.23.1920.1057@1440.23.1920.1057" timestamp="1607366334102" />
+    <state width="572" height="198" key="GridCell.Tab.0.center" timestamp="1607366334101">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="930" height="199" key="GridCell.Tab.0.center/0.23.1440.824/1440.23.1920.1057@0.23.1440.824" timestamp="1606926871317" />
-    <state width="930" height="199" key="GridCell.Tab.0.left" timestamp="1606926871316">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state width="572" height="198" key="GridCell.Tab.0.center/0.23.1440.824/1440.23.1920.1057@1440.23.1920.1057" timestamp="1607366334101" />
+    <state width="572" height="198" key="GridCell.Tab.0.left" timestamp="1607366334101">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="930" height="199" key="GridCell.Tab.0.left/0.23.1440.824/1440.23.1920.1057@0.23.1440.824" timestamp="1606926871316" />
-    <state width="930" height="199" key="GridCell.Tab.0.right" timestamp="1606926871317">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state width="572" height="198" key="GridCell.Tab.0.left/0.23.1440.824/1440.23.1920.1057@1440.23.1920.1057" timestamp="1607366334101" />
+    <state width="572" height="198" key="GridCell.Tab.0.right" timestamp="1607366334102">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="930" height="199" key="GridCell.Tab.0.right/0.23.1440.824/1440.23.1920.1057@0.23.1440.824" timestamp="1606926871317" />
+    <state width="572" height="198" key="GridCell.Tab.0.right/0.23.1440.824/1440.23.1920.1057@1440.23.1920.1057" timestamp="1607366334102" />
     <state x="531" y="353" key="NewPhpFileDialog" timestamp="1607015119113">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
