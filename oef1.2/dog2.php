@@ -37,7 +37,7 @@ require_once "connection.php";
             print "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>";
             print "<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>";
             print "<img style='width: 100%; border-radius: 5px' src='./img/". $image[1] . "' 'alt='". $image[2] ."'>";
-            print "<a href=dog_detail.php?img_id=" . $image[0] . ">Closer look</a>";
+            print "<a href=herb_detail.php?img_id=" . $image[0] . ">Closer look</a>";
             print "</div>";
         }
         ?>

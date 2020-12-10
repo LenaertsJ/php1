@@ -8,8 +8,8 @@ require_once "lib/get_data.php";
 require_once 'lib/get_html.php';
 
 //Print header and jumbotron
-printHead("A closer look");
-printJumbo("Zumi", "a closer look");
+printHead("Medicinal herbs");
+printJumbo("Medicinal herbs", "The natural pharmacy");
 ?>
 
 <div class="container">

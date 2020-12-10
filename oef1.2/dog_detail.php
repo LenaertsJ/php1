@@ -42,7 +42,7 @@ require_once "connection.php";
 
             //Link terug naar hoofdpagina
             print '<br>';
-            print '<p><a href=dog2.php>Home</a></p>';
+            print '<p><a href=herbs.php>Home</a></p>';
             print '</div>';
         }
          ?>
