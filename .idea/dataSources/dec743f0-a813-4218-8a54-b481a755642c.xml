@@ -968,66 +968,70 @@ SELECT|sys.sys_config:null
       <Position>5</Position>
       <DataType>mediumint|0s</DataType>
     </column>
-    <index id="299" parent="287" name="images_img_filename_uindex">
+    <column id="299" parent="287" name="img_ail_id">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="300" parent="287" name="images_img_filename_uindex">
       <ColNames>img_filename</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="300" parent="287" name="PRIMARY">
+    <key id="301" parent="287" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>img_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="301" parent="287" name="images_img_filename_uindex">
+    <key id="302" parent="287" name="images_img_filename_uindex">
       <ColNames>img_filename</ColNames>
       <UnderlyingIndexName>images_img_filename_uindex</UnderlyingIndexName>
     </key>
-    <column id="302" parent="288" name="img_id">
+    <column id="303" parent="288" name="img_id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="303" parent="288" name="img_filename">
+    <column id="304" parent="288" name="img_filename">
       <Position>2</Position>
       <DataType>varchar(250)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="304" parent="288" name="img_title">
+    <column id="305" parent="288" name="img_title">
       <Position>3</Position>
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="305" parent="288" name="img_width">
+    <column id="306" parent="288" name="img_width">
       <Position>4</Position>
       <DataType>mediumint|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="306" parent="288" name="img_height">
+    <column id="307" parent="288" name="img_height">
       <Position>5</Position>
       <DataType>mediumint|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="307" parent="288" name="images_img_filename_uindex">
+    <index id="308" parent="288" name="images_img_filename_uindex">
       <ColNames>img_filename</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="308" parent="288" name="images_img_title_uindex">
+    <index id="309" parent="288" name="images_img_title_uindex">
       <ColNames>img_title</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="309" parent="288" name="PRIMARY">
+    <key id="310" parent="288" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>img_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="310" parent="288" name="images_img_filename_uindex">
+    <key id="311" parent="288" name="images_img_filename_uindex">
       <ColNames>img_filename</ColNames>
       <UnderlyingIndexName>images_img_filename_uindex</UnderlyingIndexName>
     </key>
-    <key id="311" parent="288" name="images_img_title_uindex">
+    <key id="312" parent="288" name="images_img_title_uindex">
       <ColNames>img_title</ColNames>
       <UnderlyingIndexName>images_img_title_uindex</UnderlyingIndexName>
     </key>

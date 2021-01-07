@@ -8,8 +8,8 @@ require_once "lib/get_data.php";
 require_once 'lib/get_html.php';
 
 //Print header and jumbotron
-printHead("Medicinal Herbs");
-printJumbo("Medicinal Herbs", "The natural pharmacy"); ?>
+printHead("Medicinal Plants");
+printJumbo("Medicinal Plants", "The natural pharmacy"); ?>
 
 <div class="container" style="margin-bottom: 50px;">
     <div class="row">
@@ -22,7 +22,8 @@ printJumbo("Medicinal Herbs", "The natural pharmacy"); ?>
         $html = file_get_contents("templates/column.html");
 
         //Merge function
-        buildHTML($html, $rows);
+        $output = buildHTML($html, $rows);
+        print $output;
         ?>
     </div>
 </div>

@@ -8,8 +8,8 @@ require_once "lib/get_data.php";
 require_once 'lib/get_html.php';
 
 //Print header and jumbotron
-printHead("Medicinal herbs");
-printJumbo("Medicinal herbs", "The natural pharmacy");
+printHead("Medicinal Plants");
+printJumbo("Medicinal Plants", "The natural pharmacy");
 ?>
 
 <div class="container">
@@ -30,7 +30,7 @@ printJumbo("Medicinal herbs", "The natural pharmacy");
             print '<img class="img-fluid" style="width: 75%;" src=" img/' . $image["img_filename"] . '">';
 
             //Link terug naar hoofdpagina
-            print '<br>';
+            print '<p></p>';
             print '<p><a href=herbs.php>Home</a></p>';
             print '</div>';
         }

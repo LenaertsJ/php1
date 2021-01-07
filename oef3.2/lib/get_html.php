@@ -20,14 +20,24 @@ function printJumbo($title, $subtitle) {
     print $html_jumbo;
 }
 
-// FUNTION TO BUILD HTML COMPONENT
+// FUNCTIONS TO BUILD HTML COMPONENTS
 
 function buildHTML($template, $data){
+    $returnValue = "";
     foreach ($data as $row) {
         $output = $template;
-        foreach (array_keys($row) as $value){
+        foreach (array_keys($row) as $value) {
             $output = str_replace("@$value@", $row["$value"], $output);
         }
-        print $output;
+        $returnValue .= $output;
     }
+    return $returnValue;
 }
+
+function buildExtraElements($template, $selects) {
+    foreach ($selects as $key => $select) {
+        $template = str_replace("@key@", $select, $template);
+    }
+    return $template;
+}
+

@@ -2,27 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4dbdb9f-ea1e-4a49-bfe8-255edc9ed24a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/credentials2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.2/herb_detail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.2/herb_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.2/herbs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.2/lib/connection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.2/lib/get_data.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.2/lib/get_html.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.2/save.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.2/templates/column.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.2/templates/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.2/templates/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef3.2/templates/jumbotron.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/dec743f0-a813-4218-8a54-b481a755642c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dec743f0-a813-4218-8a54-b481a755642c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.2/dog2.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.2/dog2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.2/dog_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.2/dog_detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef2.1/dog_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/dog_detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef3.1/dog2.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef3.1/dog2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef3.1/save.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef3.1/save.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef3.1/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef3.1/templates/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef3.2/herb_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef3.2/herb_detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef3.2/herb_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef3.2/herb_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef3.2/herbs.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef3.2/herbs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef3.2/lib/get_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef3.2/lib/get_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef3.2/lib/get_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef3.2/lib/get_html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef3.2/save.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef3.2/save.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef3.2/templates/column.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef3.2/templates/column.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef3.2/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef3.2/templates/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef3.2/templates/jumbotron.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef3.2/templates/jumbotron.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -49,25 +40,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/oef3.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="SQL Resolution Scopes" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/oef3.2" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/oef3.2" />
       <recent name="$PROJECT_DIR$/oef3.1" />
       <recent name="$PROJECT_DIR$/oef1.2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -88,7 +81,14 @@
       <workItem from="1607018137073" duration="400000" />
       <workItem from="1607362486733" duration="4532000" />
       <workItem from="1607431267944" duration="944000" />
-      <workItem from="1607591755994" duration="2464000" />
+      <workItem from="1607591755994" duration="10649000" />
+      <workItem from="1608559036453" duration="29000" />
+      <workItem from="1608728583233" duration="909000" />
+      <workItem from="1609332407718" duration="1987000" />
+      <workItem from="1609342990748" duration="1491000" />
+      <workItem from="1610015350423" duration="228000" />
+      <workItem from="1610021692465" duration="45000" />
+      <workItem from="1610034916153" duration="1717000" />
     </task>
     <task id="LOCAL-00001" summary="Een poging...">
       <created>1606945767041</created>
@@ -145,24 +145,28 @@
     </state>
     <state x="227" y="23" key="CommitChangelistDialog2/0.23.1440.824/1440.23.1920.1057@0.23.1440.824" timestamp="1606946149546" />
     <state x="227" y="23" key="CommitChangelistDialog2/0.23.1440.877/1440.23.1920.1004@0.23.1440.877" timestamp="1606945575556" />
-    <state width="572" height="198" key="GridCell.Tab.0.bottom" timestamp="1607366334102">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state width="958" height="211" key="GridCell.Tab.0.bottom" timestamp="1607607376939">
+      <screen x="0" y="23" width="1440" height="824" />
     </state>
+    <state width="958" height="211" key="GridCell.Tab.0.bottom/0.23.1440.824/-1920.-19.1920.1057@0.23.1440.824" timestamp="1607607376939" />
     <state width="930" height="199" key="GridCell.Tab.0.bottom/0.23.1440.824/1440.23.1920.1057@0.23.1440.824" timestamp="1606926871317" />
     <state width="572" height="198" key="GridCell.Tab.0.bottom/0.23.1440.824/1440.23.1920.1057@1440.23.1920.1057" timestamp="1607366334102" />
-    <state width="572" height="198" key="GridCell.Tab.0.center" timestamp="1607366334101">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state width="958" height="211" key="GridCell.Tab.0.center" timestamp="1607607376939">
+      <screen x="0" y="23" width="1440" height="824" />
     </state>
+    <state width="958" height="211" key="GridCell.Tab.0.center/0.23.1440.824/-1920.-19.1920.1057@0.23.1440.824" timestamp="1607607376939" />
     <state width="930" height="199" key="GridCell.Tab.0.center/0.23.1440.824/1440.23.1920.1057@0.23.1440.824" timestamp="1606926871317" />
     <state width="572" height="198" key="GridCell.Tab.0.center/0.23.1440.824/1440.23.1920.1057@1440.23.1920.1057" timestamp="1607366334101" />
-    <state width="572" height="198" key="GridCell.Tab.0.left" timestamp="1607366334101">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state width="958" height="211" key="GridCell.Tab.0.left" timestamp="1607607376938">
+      <screen x="0" y="23" width="1440" height="824" />
     </state>
+    <state width="958" height="211" key="GridCell.Tab.0.left/0.23.1440.824/-1920.-19.1920.1057@0.23.1440.824" timestamp="1607607376938" />
     <state width="930" height="199" key="GridCell.Tab.0.left/0.23.1440.824/1440.23.1920.1057@0.23.1440.824" timestamp="1606926871316" />
     <state width="572" height="198" key="GridCell.Tab.0.left/0.23.1440.824/1440.23.1920.1057@1440.23.1920.1057" timestamp="1607366334101" />
-    <state width="572" height="198" key="GridCell.Tab.0.right" timestamp="1607366334102">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state width="958" height="211" key="GridCell.Tab.0.right" timestamp="1607607376939">
+      <screen x="0" y="23" width="1440" height="824" />
     </state>
+    <state width="958" height="211" key="GridCell.Tab.0.right/0.23.1440.824/-1920.-19.1920.1057@0.23.1440.824" timestamp="1607607376939" />
     <state width="930" height="199" key="GridCell.Tab.0.right/0.23.1440.824/1440.23.1920.1057@0.23.1440.824" timestamp="1606926871317" />
     <state width="572" height="198" key="GridCell.Tab.0.right/0.23.1440.824/1440.23.1920.1057@1440.23.1920.1057" timestamp="1607366334102" />
     <state x="-1212" y="404" key="NewPhpFileDialog" timestamp="1607593760426">
@@ -187,10 +191,10 @@
       <screen x="0" y="23" width="1440" height="824" />
     </state>
     <state x="601" y="320" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.23.1440.824/-1920.-19.1920.1057@0.23.1440.824" timestamp="1607592912007" />
-    <state x="53" y="78" width="705" height="510" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1607593501270">
+    <state x="53" y="78" width="705" height="510" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1607599553943">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
-    <state x="53" y="78" width="705" height="510" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1440.824/-1920.-19.1920.1057@0.23.1440.824" timestamp="1607593501270" />
+    <state x="53" y="78" width="705" height="510" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1440.824/-1920.-19.1920.1057@0.23.1440.824" timestamp="1607599553943" />
     <state x="579" y="166" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1440.824/1440.23.1920.1057@0.23.1440.824" timestamp="1606933543387" />
   </component>
 </project>

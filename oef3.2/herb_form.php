@@ -9,38 +9,36 @@ require_once 'lib/get_html.php';
 
 //Print header and jumbotron
 printHead("Edit photo");
-printJumbo("Medicinal herbs", "Edit information");
+printJumbo("Medicinal Plants", "Edit information");
 ?>
 
 <div class="container" style="padding-left: 100px;">
     <div class="row">
 
         <?php
+//        if (! is_numeric( $_GET['img_id']) ) die("Ongeldig argument " . $_GET['img_id'] . "opgegeven");
 
+        // GET DATA
         $sql = "select * from images where img_id=" . $_GET['img_id'];
-        $images = GetData( $sql );
+        $data = getData($sql);
+        $row = $data[0]; //there is only one row in this case
 
-        //loop over de afbeeldingen
-        foreach ( $images as $image )
-        {
-            print '<img class="img-fluid" style="width: 40%;" src=" img/' . $image["img_filename"] . '">';
-            print '<br>';
-            print '<br>';
-            print '<br>';
-        }
+        // ADD EXTRA ELEMENTS
 
+        $extra_elements['select_ailment'] = makeSelect($fkey = 'img_ail_id', $value = $row['img_ail_id'], $sql = "select ail_id, ail_name from ailments");
+
+        // GET FORM TEMPLATE
+        $output = file_get_contents("templates/form.html");
+
+        // MERGE DATA WITH TEMPLATE
+        $output = buildHTML($output, $data);
+        $output = buildExtraElements($output, $extra_elements);
+
+        print $output;
         ?>
+
     </div>
 </div>
-
-    <?php
-    // GET FORM TEMPLATE
-    $html = file_get_contents("templates/form.html");
-    // GET DATA
-    $rows = getData($sql);
-    // MERGE DATA WITH TEMPLATE
-    buildHTML($html, $rows);
-    ?>
 
 <br>
 <br>
