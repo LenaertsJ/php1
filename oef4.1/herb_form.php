@@ -3,9 +3,7 @@ error_reporting( E_ALL );
 ini_set( 'display_errors', 1 );
 
 //Make connection and get necessary functions
-require_once "lib/connection.php";
-require_once "lib/get_data.php";
-require_once 'lib/get_html.php';
+require_once "lib/autoload.php";
 
 //Print header and jumbotron
 printHead("Edit photo");

@@ -40,9 +40,9 @@ function buildHTML($template, $data){
     return $returnValue;
 }
 
-function buildExtraElements($template, $selects) {
-    foreach ($selects as $key => $select) {
-        $template = str_replace("@key@", $select, $template);
+function buildExtraElements($template, $elements) {
+    foreach ($elements as $key => $element) {
+        $template = str_replace("@$key@", $element, $template);
     }
     return $template;
 }
