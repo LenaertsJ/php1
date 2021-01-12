@@ -1,24 +1,5 @@
 <?php
-
-require_once "connection.php";
-
-//Function to get data from database
-
-function getData($sql) {
-    global $conn;
-
-    //Define and execute query
-    $result = $conn->query($sql);
-
-    //Show result
-    if ($result -> num_rows > 0){
-        $data = $result->fetch_all(MYSQLI_BOTH);
-        return $data;
-    }
-    else {
-        return [];
-    }
-}
+require_once "autoload.php";
 
 // FUNCTION TO GET DATA FOR OPTION LIST
 

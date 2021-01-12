@@ -3,9 +3,8 @@ error_reporting( E_ALL );
 ini_set( 'display_errors', 1 );
 
 //Make connection and get necessary functions
-require_once "lib/connection.php";
-require_once "lib/get_data.php";
-require_once 'lib/get_html.php';
+require_once "lib/autoload.php";
+
 
 //Print header, jumbotron and navbar
 printHead("Medicinal Plants");
@@ -14,17 +13,26 @@ printNavbar();
 ?>
 
 <div class="container" style="margin-bottom: 50px;">
+    <?php
+    //Print succes message if any
+    if($_SESSION['msgs'] > ""){
+        print '<div class="alert alert-success mb-5 text-center" role="alert">' . $_SESSION['msgs'] . '</div>';
+        $_SESSION['msgs'] = null;
+    }
+
+    ?>
     <div class="row">
         <?php
 
         //Get data
-        $rows = getData("SELECT * from images");
+        $sql = 'select * from images';
+        $data = getData($sql);
 
         //Get template
-        $html = file_get_contents("templates/column.html");
+        $template = file_get_contents("templates/column.html");
 
         //Merge function
-        $output = buildHTML($html, $rows);
+        $output = mergeViewWithData($template, $data);
         print $output;
         ?>
     </div>

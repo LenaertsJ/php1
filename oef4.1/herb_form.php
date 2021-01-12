@@ -15,7 +15,7 @@ printNavbar();
     <div class="row">
 
         <?php
-//        if (! is_numeric( $_GET['img_id']) ) die("Ongeldig argument " . $_GET['img_id'] . "opgegeven");
+        if (! is_numeric( $_GET['img_id']) ) die("Ongeldig argument " . $_GET['img_id'] . "opgegeven");
 
         // GET DATA
         $sql = "select * from images where img_id=" . $_GET['img_id'];
@@ -23,15 +23,15 @@ printNavbar();
         $row = $data[0]; //there is only one row in this case
 
         // ADD EXTRA ELEMENTS
-
+        $extra_elements['csrf_token'] = GenerateCSRF( "herb_form.php"  );
         $extra_elements['select_ailment'] = makeSelect($fkey = 'img_ail_id', $value = $row['img_ail_id'], $sql = "select ail_id, ail_name from ailments");
 
         // GET FORM TEMPLATE
         $output = file_get_contents("templates/form.html");
 
         // MERGE DATA WITH TEMPLATE
-        $output = buildHTML($output, $data);
-        $output = buildExtraElements($output, $extra_elements);
+        $output = mergeViewWithData($output, $data);
+        $output = mergeViewWithExtraElements($output, $extra_elements);
 
         print $output;
         ?>
