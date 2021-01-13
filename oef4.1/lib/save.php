@@ -1,6 +1,8 @@
 <?php
 
 require_once "autoload.php";
+error_reporting( E_ALL );
+ini_set( 'display_errors', 1 );
 
 SaveFormData();
 
@@ -29,17 +31,27 @@ function SaveFormData()
         //validation
         $sending_form_uri = $_SERVER['HTTP_REFERER'];
         CompareWithDatabase($table, $pkey);
-//        validateUsrEmail($_POST['usr_email']);
 
-        //terugkeren naar afzender als er een fout is
+//        if(key_exists('usr_email', $_POST)){
+//            validateUsrEmail($_POST['usr_email']);
+//        }
+//
+//        if(key_exists('usr_password', $_POST)){
+//            validateUsrPassword($_POST['usr_password']);
+//        }
+
+        //gegevens bewaren en terugkeren naar afzender als er een fout is
         if (count($_SESSION['errors']) > 0) {
-            header("Location: " . $sending_form_uri);
+            var_dump($_SESSION['errors']);
+            $_SESSION['OLD_POST'] = $_SESSION['POST'];
+//            header("Location: " . $sending_form_uri);
             exit();
         }
 
         //hash password
-        $_POST['usr_password'] = password_hash($_POST['usr_password'], PASSWORD_DEFAULT);
-
+        if(key_exists('usr_password', $_POST)){
+            $_POST['usr_password'] = password_hash($_POST['usr_password'], PASSWORD_DEFAULT);
+        }
 
         //insert or update?
         if ($_POST["$pkey"] > 0) $update = true;
@@ -86,7 +98,6 @@ function SaveFormData()
             $_SESSION['msgs'] = "Registration succesful, welcome!";
         }
 
-        var_dump($_SESSION['errors']);
         //redirect after insert or update
         if ($insert and $_POST["afterinsert"] > "") header("Location: ../" . $_POST["afterinsert"]);
         if ($update and $_POST["afterupdate"] > "") header("Location: ../" . $_POST["afterupdate"]);

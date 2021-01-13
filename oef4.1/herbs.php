@@ -12,11 +12,11 @@ printJumbo("Medicinal Plants", "The natural pharmacy");
 printNavbar();
 ?>
 
-<div class="container" style="margin-bottom: 50px;">
+<div class="container" style="margin-bottom: 50px; margin-top: 30px;">
     <?php
     //Print succes message if any
-    if($_SESSION['msgs'] > ""){
-        print '<div class="alert alert-success mb-5 text-center" role="alert">' . $_SESSION['msgs'] . '</div>';
+    if(key_exists(0, $msgs)){
+        print '<div class="alert alert-success mb-5 text-center" role="alert">' . $msgs[0] . '</div>';
         $_SESSION['msgs'] = null;
     }
 

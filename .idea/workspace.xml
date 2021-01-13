@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4dbdb9f-ea1e-4a49-bfe8-255edc9ed24a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/oef4.1/lib/save.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef4.1/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/oef4.1/assets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef4.1/herb_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef4.1/herb_detail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oef4.1/herb_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef4.1/herb_form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oef4.1/herbs.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef4.1/herbs.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oef4.1/lib/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef4.1/lib/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef4.1/lib/connection.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef4.1/lib/get_data.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/oef4.1/lib/get_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef4.1/lib/get_html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef4.1/save.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef4.1/templates/column.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef4.1/templates/column.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef4.1/lib/save.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef4.1/lib/save.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef4.1/lib/validate.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef4.1/lib/validate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef4.1/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef4.1/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oef4.1/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef4.1/templates/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef4.1/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef4.1/templates/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +98,9 @@
       <workItem from="1610293681323" duration="548000" />
       <workItem from="1610376919650" duration="524000" />
       <workItem from="1610447027146" duration="387000" />
-      <workItem from="1610467651875" duration="13588000" />
+      <workItem from="1610467651875" duration="13871000" />
+      <workItem from="1610534193002" duration="317000" />
+      <workItem from="1610538951359" duration="4957000" />
     </task>
     <task id="LOCAL-00001" summary="Een poging...">
       <created>1606945767041</created>
@@ -217,16 +215,5 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="213" key="search.everywhere.popup/0.23.1440.877/-1920.-19.1920.1004@0.23.1440.877" timestamp="1610041416018" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/oef4.1/herbs.php</url>
-          <line>18</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

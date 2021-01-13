@@ -47,7 +47,7 @@ function mergeViewWithExtraElements($template, $elements) {
     return $template;
 }
 
-function MergeViewWithErrors( $template, $errors )
+function mergeViewWithErrors( $template, $errors )
 {
     foreach ( $errors as $key => $error )
     {
@@ -56,7 +56,7 @@ function MergeViewWithErrors( $template, $errors )
     return $template;
 }
 
-function RemoveEmptyErrorTags( $template, $data )
+function removeEmptyErrorTags( $template, $data )
 {
     foreach ( $data as $row )
     {

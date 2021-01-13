@@ -14,7 +14,7 @@
     <input type="hidden" id="afterupdate" name="afterupdate" value="herbs.php">
 
     <!--    image-->
-    <img style="width:50%; margin-bottom:20px; border-radius: 5px;" src="./img/@img_filename@" alt="@img_title">
+    <img style="width:50%; margin-bottom:20px; margin-top: 20px; border-radius: 5px;" src="./img/@img_filename@" alt="@img_title">
 
     <!--    security-->
     <input type="hidden" name="csrf" value="@csrf_token@">
@@ -24,6 +24,7 @@
         <label for="img_id" class="col-sm-2 col-form-label">ID</label>
         <div class="col-sm-10">
             <input type="text" readonly class="form-control-plaintext" id= "img_id" name= "img_id" value= "@img_id@">
+            @img_id_error@
         </div>
     </div>
 
@@ -31,6 +32,7 @@
         <label for="img_title" class="col-sm-2 col-form-label">Titel</label>
         <div class="col-sm-10">
             <input type="text" class="form-control" id="img_title" name="img_title" placeholder="Give new title.." value= "@img_title@">
+            @img_title_error@
         </div>
     </div>
 
@@ -38,6 +40,7 @@
         <label for="img_filename" class="col-sm-2 col-form-label">Filename</label>
         <div class="col-sm-10">
             <input type="text" readonly class="form-control" id="img_filename" name="img_filename" placeholder="Adjust filename..." value= "@img_filename@">
+            @img_filename_error@
         </div>
     </div>
 
@@ -45,6 +48,7 @@
         <label for="img_width" class="col-sm-2 col-form-label">Width</label>
         <div class="col-sm-10">
             <input type="number" class="form-control" id="img_width" name="img_width" placeholder="Adjust width..." value= "@img_width@">
+            @img_width_error@
         </div>
     </div>
 
@@ -52,12 +56,14 @@
         <label for="img_height" class="col-sm-2 col-form-label">Height</label>
         <div class="col-sm-10">
             <input type="number" class="form-control" id="img_height" name="img_height" placeholder="Adjust height..." value= "@img_height@">
+            @img_height_error@
         </div>
     </div>
     <div class="form-group row">
         <label for="img_ail_id" class="col-sm-4 col-form-label">Ailment</label>
         <div class="col-sm-8">
             @select_ailment@
+            @img_ail_id_error@
         </div>
     </div>
 

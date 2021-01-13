@@ -23,13 +23,14 @@ printNavbar();
         // ADD EXTRA ELEMENTS
         $extra_elements['csrf_token'] = GenerateCSRF( "register.php"  );
 
-
         // GET FORM TEMPLATE
         $output = file_get_contents("templates/register.html");
 
         // MERGE DATA WITH TEMPLATE
         $output = mergeViewWithData($output, $data);
         $output = mergeViewWithExtraElements($output, $extra_elements);
+//        $output = mergeViewWithErrors($output, $erors);
+        $output = removeEmptyErrorTags($output, $data);
 
         print $output;
         ?>
