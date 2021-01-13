@@ -47,6 +47,20 @@ function mergeViewWithExtraElements($template, $elements) {
     return $template;
 }
 
+function mergeViewWithOldElements($template, $elements){
+    foreach ($elements as $key => $element){
+        $template = str_replace("@$key@", $element, $template);
+    }
+    return $template;
+}
+
+//function mergeViewWithOldElements($template, $elements) {
+//    foreach ($elements as $key => $element) {
+//        $template = str_replace("@$key@", $element, $template);
+//    }
+//    return $template;
+//}
+
 function mergeViewWithErrors( $template, $errors )
 {
     foreach ( $errors as $key => $error )

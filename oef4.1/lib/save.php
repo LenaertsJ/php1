@@ -32,19 +32,19 @@ function SaveFormData()
         $sending_form_uri = $_SERVER['HTTP_REFERER'];
         CompareWithDatabase($table, $pkey);
 
-//        if(key_exists('usr_email', $_POST)){
-//            validateUsrEmail($_POST['usr_email']);
-//        }
-//
-//        if(key_exists('usr_password', $_POST)){
-//            validateUsrPassword($_POST['usr_password']);
-//        }
+        if(key_exists('usr_email', $_POST)){
+            validateUsrEmail($_POST['usr_email']);
+        }
+
+        if(key_exists('usr_password', $_POST)){
+            validateUsrPassword($_POST['usr_password'], $_POST['usr_passwordCheck']);
+        }
 
         //gegevens bewaren en terugkeren naar afzender als er een fout is
         if (count($_SESSION['errors']) > 0) {
             var_dump($_SESSION['errors']);
-            $_SESSION['OLD_POST'] = $_SESSION['POST'];
-//            header("Location: " . $sending_form_uri);
+            $_SESSION['OLD_POST'] = $_POST;
+            header("Location: " . $sending_form_uri);
             exit();
         }
 

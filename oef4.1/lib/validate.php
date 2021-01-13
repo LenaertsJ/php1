@@ -111,16 +111,16 @@ function GetFieldType( $definition )
 }
 
 function validateUsrEmail($usr_email) {
-    $usr_email = $_POST['$usr_email'];
+    $usr_email = $_POST['usr_email'];
     if(!filter_var($usr_email, FILTER_VALIDATE_EMAIL)){
         $msg = "This is not a valid e-mail address";
         $_SESSION['errors'][ "usr_email_error" ] = $msg;
     } else {
-        $sql = "select count(usr_email) as count from user where usr_email=" . '$usr_email';
+        $sql = "select count(usr_email) as count from user where usr_email= '".$usr_email."'";
         $data = getData($sql);
         if($data[0]['count'] == 1){
             $msg = "An account already exists for this e-mail address";
-            $_SESSION['errors']["$usr_email" . "error"] = $msg;
+            $_SESSION['errors']["usr_email_error"] = $msg;
         }
     }
 }
