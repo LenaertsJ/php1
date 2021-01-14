@@ -7,7 +7,7 @@ require_once "lib/autoload.php";
 
 //Print header and jumbotron
 printHead("Register");
-printJumbo("Medicinal Plants", "Welcome, please register here...");
+printJumbo("Medicinal Plants", "Welcome, please login here...");
 printNavbar();
 
 ?>
@@ -18,21 +18,15 @@ printNavbar();
         <?php
 
         // GET DATA
-        if(count($old_post) > 0){
-            $data = [0 => [
-                    'usr_voornaam' => $old_post['usr_voornaam'],
-                    'usr_naam' => $old_post['usr_naam'],
-                    'usr_email' => $old_post['usr_email']
-            ]];
-        } else {
-            $data = [0 => ["usr_voornaam" => "", "usr_naam" => "", "usr_email" => "", "usr_password" => ""]];
-        }
+
+        $data = [0 => ["usr_voornaam" => "", "usr_naam" => "", "usr_email" => "", "usr_password" => ""]];
+
 
         // ADD EXTRA ELEMENTS
         $extra_elements['csrf_token'] = GenerateCSRF( "register.php"  );
 
         // GET FORM TEMPLATE
-        $output = file_get_contents("templates/register.html");
+        $output = file_get_contents("templates/login.html");
 
         // MERGE DATA WITH TEMPLATE
         $output = mergeViewWithData($output, $data);

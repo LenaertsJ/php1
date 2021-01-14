@@ -4,9 +4,13 @@ require_once "autoload.php";
 error_reporting( E_ALL );
 ini_set( 'display_errors', 1 );
 
-SaveFormData();
+if(loginCheck()){
+    print "Yesss, login succesful";
+} else {
+    print "Oh man, something went wrong! Please, check you login and password";
+}
 
-function SaveFormData()
+function loginCheck()
 {
     if ($_SERVER['REQUEST_METHOD'] == "POST") {
         //controle CSRF token
@@ -19,47 +23,16 @@ function SaveFormData()
         $_POST = StripSpaces($_POST);
         $_POST = ConvertSpecialChars($_POST);
 
-        $table = $pkey = $update = $insert = $where = $str_keys_values = "";
-
-        //get important metadata
-        if (!key_exists("table", $_POST)) die("Missing table");
-        if (!key_exists("pkey", $_POST)) die("Missing pkey");
-
-        $table = $_POST['table'];
-        $pkey = $_POST['pkey'];
-
         //validation
         $sending_form_uri = $_SERVER['HTTP_REFERER'];
         CompareWithDatabase($table, $pkey);
-
-        if(key_exists('usr_email', $_POST)){
-            validateUsrEmail($_POST['usr_email']);
-        }
-
-        if(key_exists('usr_password', $_POST)){
-            validateUsrPassword($_POST['usr_password'], $_POST['usr_passwordCheck']);
-        }
-
-        //gegevens bewaren en terugkeren naar afzender als er een fout is
-        if (count($_SESSION['errors']) > 0) {
-            $_SESSION['OLD_POST'] = $_POST;
-            header("Location: " . $sending_form_uri);
-            exit();
-        }
-
-        //insert or update?
-        if ($_POST["$pkey"] > 0) $update = true;
-        else $insert = true;
-
-        if ($update) $sql = "UPDATE $table SET ";
-        if ($insert) $sql = "INSERT INTO $table SET ";
 
         //make key-value string part of SQL statement
         $keys_values = [];
 
         foreach ($_POST as $field => $value) {
             //skip non-data fields
-            if (in_array($field, ['table', 'pkey', 'afterinsert', 'afterupdate', 'csrf', 'usr_passwordCheck'])) continue;
+            if (in_array($field, ['csrf', 'usr_passwordCheck'])) continue;
 
             //handle primary key field
             if ($field == $pkey) {

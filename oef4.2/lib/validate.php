@@ -110,13 +110,12 @@ function GetFieldType( $definition )
     return [ $type, $length, $precision ];
 }
 
-function validateUsrEmail($usr_email) {
-    $usr_email = $_POST['usr_email'];
-    if(!filter_var($usr_email, FILTER_VALIDATE_EMAIL)){
+function validateUsrEmail($email) {
+    if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
         $msg = "This is not a valid e-mail address";
         $_SESSION['errors'][ "usr_email_error" ] = $msg;
     } else {
-        $sql = "select count(usr_email) as count from user where usr_email= '".$usr_email."'";
+        $sql = "select count(usr_email) as count from user where usr_email= '".$email."'";
         $data = getData($sql);
         if($data[0]['count'] == 1){
             $msg = "An account already exists for this e-mail address";
@@ -126,8 +125,6 @@ function validateUsrEmail($usr_email) {
 }
 
 function validateUsrPassword($pswd, $pswdCheck) {
-    $pswd = $_POST['usr_password'];
-    $pswdCheck = $_POST['usr_passwordCheck'];
     if(strlen($pswd) < 8){
         $msg = "Password must be at least 8 characters long";
         $_SESSION['errors'][ "usr_password_error" ] = $msg;
