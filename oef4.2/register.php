@@ -9,14 +9,13 @@ require_once "lib/autoload.php";
 printHead("Register");
 printJumbo("Medicinal Plants", "Welcome, please register here...");
 printNavbar();
+var_dump($old_post);
 ?>
 
 <div class="container">
     <div class="row">
 
         <?php
-
-        var_dump($old_post);
 
         // GET DATA
         $data = [0 => ["usr_voornaam" => "", "usr_naam" => "", "usr_email" => "", "usr_password" => ""]];

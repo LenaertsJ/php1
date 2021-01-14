@@ -15,7 +15,7 @@ printNavbar();
 <div class="container" style="margin-bottom: 50px; margin-top: 30px;">
     <?php
     //Print succes message if any
-    if(key_exists(0, $msgs)){
+    if(!empty($msgs)){
         print '<div class="alert alert-success mb-5 text-center" role="alert">' . $msgs[0] . '</div>';
         $_SESSION['msgs'] = null;
     }

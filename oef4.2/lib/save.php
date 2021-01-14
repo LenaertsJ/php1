@@ -65,7 +65,7 @@ function SaveFormData()
 
         foreach ($_POST as $field => $value) {
             //skip non-data fields
-            if (in_array($field, ['table', 'pkey', 'afterinsert', 'afterupdate', 'csrf'])) continue;
+            if (in_array($field, ['table', 'pkey', 'afterinsert', 'afterupdate', 'csrf', 'usr_passwordCheck'])) continue;
 
             //handle primary key field
             if ($field == $pkey) {
