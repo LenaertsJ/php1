@@ -23,6 +23,22 @@ function printJumbo($title, $subtitle) {
 function printNavbar() {
     $template_nav = "templates/navbar.html";
     $html_navbar = file_get_contents($template_nav);
+    if(isset($_SESSION['user'])){
+        $html_navbar = str_replace("@username@", $_SESSION['user']['usr_voornaam'] ,$html_navbar);
+    }
+    $html_navbar = str_replace('<ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    @username@
+                </a>
+                <div class="dropdown-menu nav-item" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="./profile.php">Profile</a>
+                    <a class="dropdown-item" href="./usr_settings.php">Settings</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./logout.php">Logout</a>
+                </div>
+            </li>
+        </ul>', "" ,$html_navbar);
     print $html_navbar;
 }
 
